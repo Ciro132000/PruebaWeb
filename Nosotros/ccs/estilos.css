@@ -1,0 +1,60 @@
+body{
+	background: #DDDBDD;
+	background-size:100% 100%;
+	background-attachment:fixed;
+	font-family: verdana;
+}
+figure{
+	text-align: center;
+}
+header{
+	display: block;
+}
+nav{
+	background: linear-gradient(30deg, #000000, #DD67E4);
+	text-align: center;
+	padding: 10px 0px;
+	margin: 20px 0px 0px 0px;
+}
+nav ul li{
+	display: inline;
+	padding: 0px 10px;
+	text-transform: uppercase;
+	font-size: 15px
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+input.src{
+	padding: 9px 10px 9px 32px;
+	outline:none;
+	font-size: 18px;
+	border-radius: 15px;
+	color:#444;
+	border: 3px solid a50559;
+	background: #fff url("../../img/search-icon.png") no-repeat 9px center;
+	width: 60px;
+	transition: all .5s;
+
+}
+input.src:hover{
+	width: 180px;
+	background-color: #fff;
+	border-color: #8c10b3;
+	box-shadow: 0 0 5px #6dcff680;
+
+}
+
+div{
+	color: #fff;
+	width: 60%;
+	font-family: 'open sans';
+	font-size: 30px;
+	border: white 10px inset;
+	border-color: #000000;
+	border-radius: 30px;
+    margin: 200px auto; 
+	background:  linear-gradient(70deg, red, black);
+}
