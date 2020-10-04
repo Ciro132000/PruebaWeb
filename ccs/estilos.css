@@ -52,7 +52,6 @@ input.src:hover{
 	height: 500px;
 	background: white;
 	border-style: inset;
-	border-radius: 25px;
 	margin: auto;
 	overflow: hidden;
 }
@@ -211,11 +210,16 @@ aside{
 }
 footer{
 	clear:both;
-	height: 60px;
 	background: linear-gradient(30deg, #000000, #DD67E4);
-	padding: 10px 0px;
 	text-align: center;
 	color: #fff;
+}
+footer a{
+	text-decoration: none;
+	color: #fff;
+}
+footer p{
+	font-size: 10px;
 }
 hr {border: 0; 
 	height: 15px;

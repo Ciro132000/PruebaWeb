@@ -48,13 +48,25 @@ input.src:hover{
 }
 
 div{
-	color: #fff;
+	margin: auto;
+	display: flex;
 	width: 60%;
-	font-family: 'open sans';
-	font-size: 30px;
-	border: white 10px inset;
-	border-color: #000000;
-	border-radius: 30px;
-    margin: 200px auto; 
-	background:  linear-gradient(70deg, red, black);
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 20px;
+}
+.nosotros img{
+	border-radius: 18px;
+	box-shadow: 2px 2px 5px #999;
+}
+footer{
+	background: linear-gradient(30deg, #000000, #DD67E4);
+	text-align: center;
+	color: white;
+	}
+footer a{
+	text-decoration: none;
+	color: #fff;
+}
+footer p{
+	font-size: 10px;
 }

@@ -140,3 +140,17 @@ aside h2{
 	text-decoration: none;
 	width: 100%;
 }
+
+footer{
+	clear:both;
+	background: linear-gradient(30deg, #000000, #DD67E4);
+	text-align: center;
+	color: #fff;
+}
+footer a{
+	text-decoration: none;
+	color: #fff;
+}
+footer p{
+	font-size: 10px;
+}
